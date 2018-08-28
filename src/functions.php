@@ -1,10 +1,8 @@
 <?php
-/**
- *
- */
+
 function task1()
 {
-    $xml = simplexml_load_file ("data.xml");
+    $xml = simplexml_load_file (__DIR__ . "/data.xml");
     echo $xml->getName().'<br/><br/>';
     echo "PurchaseOrderNumber".':'.(string)$xml["PurchaseOrderNumber"]."<br/><br/>";
 
