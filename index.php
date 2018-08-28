@@ -1,6 +1,5 @@
 <?php
 require("src/functions.php");
-require("src/data.xml");
 
 echo 'Задание #1'.'<br/>';
 
