@@ -39,9 +39,9 @@ function task1()
     echo $xml->Items->Item[1]->USPrice->getName().':'.$xml->Items->Item[1]->USPrice.'<br/>';
     echo $xml->Items->Item[1]->ShipDate->getName().':'.$xml->Items->Item[1]->ShipDate.'<br/><br/>';
 }
-task1();
+
 //=========================================================================
-/*function task2()
+function task2()
 {
     $data = [
         ['Russia','USA','Ispain','France','German'],
@@ -136,4 +136,4 @@ function task4()
     foreach ($params as $value) {
         echo "<br>", $value . " = " . $result[$value];
     }
-}*/
+}
